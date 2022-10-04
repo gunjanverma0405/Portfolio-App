@@ -2,9 +2,7 @@
 
 * **Video for the demonstration of the app:**
 
-<video width="320" height="240" controls>
-  <source src="./Demo/demo_video.gif" type="video/mp4">
-</video>
+<img src="./Demo/demo_video.gif" width="200" height="400" />
 
 
 * **Screenshot of App:**
