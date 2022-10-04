@@ -99,7 +99,8 @@ class HomePage extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
-                final Uri _url = Uri.parse('https://www.linkedin.com/');
+                final Uri _url = Uri.parse(
+                    'https://www.linkedin.com/in/gunjan-verma-4952a51a0/');
                 _launchUrl(_url);
               },
               child: Container(
