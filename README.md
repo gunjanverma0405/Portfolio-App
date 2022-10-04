@@ -2,7 +2,8 @@
 
 * **Video for the demonstration of the app:**
 
-<img src="./Demo/demo_video.gif" width="200" height="400" />
+Please wait the video will load
+<img src="./Demo/demo_video.gif" width="400" height="600" />
 
 
 * **Screenshot of App:**
