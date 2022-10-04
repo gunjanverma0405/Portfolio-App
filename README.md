@@ -3,7 +3,7 @@
 * **Video for the demonstration of the app:**
 
 
-![Output Video](Demo/demo_video.gif)
+![Output Video](Demo/demo_video.gif | width=100 | height=100)
 
 * **Screenshot of App:**
 
