@@ -1,6 +1,8 @@
 # Portfolio-App
 
-**Video for the demonstration of the app:**
+* **Video for the demonstration of the app:**
+
+
 ![Output Video](Demo/demo_video.gif)
 
 * **Screenshot of App:**
