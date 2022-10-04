@@ -32,7 +32,8 @@ class ProjectsPage extends StatelessWidget {
           children: [
             GestureDetector(
               onTap: () {
-                final Uri _url = Uri.parse('https://github.com/');
+                final Uri _url = Uri.parse(
+                    'https://github.com/gunjanverma0405/Portfolio-App');
                 _launchUrl(_url);
               },
               child: const Card(
@@ -56,7 +57,8 @@ class ProjectsPage extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
-                final Uri _url = Uri.parse('https://github.com/');
+                final Uri _url = Uri.parse(
+                    'https://github.com/gunjanverma0405/FlyingFishAndroidGame');
                 _launchUrl(_url);
               },
               child: const Card(
