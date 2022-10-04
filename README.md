@@ -1,7 +1,7 @@
 # Portfolio-App
 
-**Video for the demonstration of the app:**
+* **Video for the demonstration of the app:**
 
-**Screenshot of App:**
+* **Screenshot of App:**
 
-**Screenshot of App Icon:**
+* **Screenshot of App Icon:**
