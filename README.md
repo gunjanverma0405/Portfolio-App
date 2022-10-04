@@ -2,7 +2,11 @@
 
 Video for the demonstration of the app:
 
-https://user-images.githubusercontent.com/60324273/193831505-90d1f5d6-524f-4e94-94dc-25a3fc34bd35.mp4
+<p align="center">
+<img src="[https://raw.githubusercontent.com/andresz1/size-limit-action/master/assets/pr.png](https://user-images.githubusercontent.com/60324273/193831505-90d1f5d6-524f-4e94-94dc-25a3fc34bd35.mp4)"
+  alt="Video"
+  width="686" height="289">
+</p>
 
 Screenshot of App:
 
