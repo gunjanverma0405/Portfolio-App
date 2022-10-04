@@ -1,19 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+_sendingMails() async {
+  var url = Uri.parse("mailto:feedback@geeksforgeeks.org");
+  if (await canLaunchUrl(url)) {
+    await launchUrl(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage("images/bg.jpg"),
+          fit: BoxFit.cover,
+        ),
+      ),
       child: Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.transparent,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const CircleAvatar(
-              radius: 60,
-              backgroundColor: Colors.blue,
+              radius: 70,
               backgroundImage: AssetImage(
                 'images/GV_pic.png',
               ),
@@ -27,26 +41,34 @@ class HomePage extends StatelessWidget {
             const Text(
               'MCA, IT',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 25,
               ),
             ),
-            Container(
-              margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
-              padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Colors.blue[100],
-              ),
-              child: Row(
-                children: const [
-                  Icon(Icons.email_outlined),
-                  SizedBox(
-                    width: 15,
-                  ),
-                  Text(
-                    'gunjanverma0412@gmail.com',
-                  ),
-                ],
+            GestureDetector(
+              onTap: () {
+                final Uri _url = Uri.parse("mailto:gunjanverma0412@gmail.com");
+                _launchUrl(_url);
+              },
+              child: Container(
+                margin:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+                padding:
+                    const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: const Color.fromARGB(255, 86, 190, 192),
+                ),
+                child: Row(
+                  children: const [
+                    Icon(Icons.email_outlined),
+                    SizedBox(
+                      width: 15,
+                    ),
+                    Text(
+                      'gunjanverma0412@gmail.com',
+                    ),
+                  ],
+                ),
               ),
             ),
             GestureDetector(
@@ -60,7 +82,7 @@ class HomePage extends StatelessWidget {
                     const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Colors.blue[100],
+                  color: const Color.fromARGB(255, 86, 190, 192),
                 ),
                 child: Row(
                   children: const [
@@ -87,7 +109,7 @@ class HomePage extends StatelessWidget {
                     const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Colors.blue[100],
+                  color: const Color.fromARGB(255, 86, 190, 192),
                 ),
                 child: Row(
                   children: const [

@@ -8,9 +8,9 @@ class ProjectsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.blue[100],
+        backgroundColor: const Color.fromARGB(255, 131, 226, 206),
         appBar: AppBar(
-          backgroundColor: Colors.blue[100],
+          backgroundColor: const Color.fromARGB(255, 86, 190, 192),
           title: const Text(
             'My Projects',
             style: TextStyle(
@@ -36,7 +36,7 @@ class ProjectsPage extends StatelessWidget {
                 _launchUrl(_url);
               },
               child: const Card(
-                color: Color.fromARGB(255, 18, 87, 145),
+                color: Color.fromARGB(255, 4, 121, 95),
                 child: ListTile(
                     title: Text(
                       'Project 1: Portfolio App',
@@ -60,7 +60,7 @@ class ProjectsPage extends StatelessWidget {
                 _launchUrl(_url);
               },
               child: const Card(
-                color: Color.fromARGB(255, 18, 87, 145),
+                color: Color.fromARGB(255, 4, 121, 95),
                 child: ListTile(
                   title: Text(
                     'Project 2: Flying Fish Game',
@@ -70,7 +70,7 @@ class ProjectsPage extends StatelessWidget {
                     ),
                   ),
                   subtitle: Text(
-                    'This project is one of the most weird things I have ever done',
+                    'This project is one of the most weirdest project I have ever done',
                     style: TextStyle(
                       fontSize: 15,
                       color: Colors.white,
