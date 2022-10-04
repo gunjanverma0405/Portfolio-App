@@ -2,7 +2,7 @@
 
 * **Video for the demonstration of the app:**
 
-Please wait the video will load
+Please wait the video will load<br>
 <img src="./Demo/demo_video.gif" width="300" height="700" />
 
 
