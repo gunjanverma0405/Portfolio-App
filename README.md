@@ -2,8 +2,7 @@
 
 * **Video for the demonstration of the app:**
 
-
-![Output Video](Demo/demo_video.gif | width=100 | height=100)
+<img src="./Demo/demo_video.gif." width="200" height="400" />
 
 * **Screenshot of App:**
 
